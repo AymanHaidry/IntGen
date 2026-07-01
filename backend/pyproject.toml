@@ -1,0 +1,10 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "IntGen chart rendering backend"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.128.1",
+    "matplotlib>=3.9.2",
+    "openpyxl>=3.1.5",
+]
